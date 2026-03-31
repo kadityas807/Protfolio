@@ -1,7 +1,7 @@
 # 🚀 Personal Portfolio Website
-https://chayan2006.github.io/Protfolio/  
+https://kadityas807.github.io/Protfolio/  
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and journey as an AI & ML Engineer. It features a modern, responsive design with immersive 3D effects and smooth animations.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and journey as a Full Stack Developer & AI Engineer. It features a modern, responsive design with immersive 3D effects and smooth animations.
 
 ## ✨ Features
 
@@ -30,7 +30,7 @@ portfolio/
 │       ├── main.js            # Main JavaScript logic (Intro, Tilt, Parallax, etc.)
 │       └── tailwind-config.js # Custom Tailwind configuration
 ├── index.html                 # Main entry point
-├── chayan_profile.jpg         # Profile image
+├── Aditya_profile.png         # Profile image
 └── README.md                  # Project documentation
 ```
 
@@ -38,7 +38,7 @@ portfolio/
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/chayan2006/Protfolio.git
+    git clone https://github.com/kadityas807/Protfolio.git
     ```
 2.  **Open the project**:
     Navigate to the project folder and open `index.html` in your preferred web browser.
@@ -47,11 +47,11 @@ portfolio/
 
 ## 👨‍💻 Author
 
-**Chayan Khatua**
-- **Role**: AI & ML Engineer
-- **Education**: B.Tech CSE (AI & ML) at Lovely Professional University
-- **GitHub**: [chayan2006](https://github.com/chayan2006)
-- **LinkedIn**: [Chayan Khatua](https://www.linkedin.com/in/chayan-khatua-8880851bb/)
+**Aditya Pratap Singh**
+- **Role**: Full Stack Developer & AI Engineer
+- **Education**: B.Tech CSE (AI & ML) at Invertis University, Bareilly
+- **GitHub**: [kadityas807](https://github.com/kadityas807)
+- **LinkedIn**: [Aditya Pratap Singh](https://www.linkedin.com/in/aditya-pratap-singh-ab6283367)
 
 ---
-*© 2025 Chayan Khatua. All rights reserved.*
+*© 2026 Aditya Pratap Singh. All rights reserved.*
