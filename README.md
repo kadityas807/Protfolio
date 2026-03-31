@@ -1,5 +1,5 @@
 # 🚀 Personal Portfolio Website
-https://kadityas807.github.io/Protfolio/  
+ https://kadityas807.github.io/Protfolio/  
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and journey as a Full Stack Developer & AI Engineer. It features a modern, responsive design with immersive 3D effects and smooth animations.
 
