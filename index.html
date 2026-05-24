@@ -6,7 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Pratap Singh | Full Stack Developer & AI Engineer</title>
     <meta name="description"
-        content="Portfolio of Aditya Pratap Singh, a Full Stack Developer & AI Engineer passionate about building scalable web applications and intelligent systems.">
+        content="Portfolio of Aditya Pratap Singh, a Full Stack Developer & AI Engineer building responsive web applications, modern interfaces, and beginner-friendly projects.">
+    <meta name="keywords"
+        content="Full Stack Developer, AI Engineer, Portfolio, MERN, JavaScript, Tailwind CSS, Node.js, MongoDB, Internship, Freelance">
+    <meta name="author" content="Aditya Pratap Singh">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title"
+        content="Aditya Pratap Singh | Full Stack Developer & AI Engineer">
+    <meta property="og:description"
+        content="Explore a polished developer portfolio highlighting web development, backend systems, and beginner-friendly projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kadityas807.github.io/Portfolio/">
+    <meta property="og:image" content="favicon.svg">
+    <meta name="theme-color" content="#0f172a">
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -17,7 +33,7 @@
     <!-- Custom Tailwind Configuration -->
     <script src="assets/js/tailwind-config.js"></script>
 
-    <!-- Custom CSS for 3D Effects -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -136,6 +152,9 @@
                     <span
                         class="absolute bottom-0 left-0 w-full h-0.5 bg-cyan-400 transform origin-left transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
                 </a>
+                <a href="assets/Aditya-Pratap-Singh-Resume.pdf" download class="px-4 py-2 rounded-full bg-cyan-500 text-slate-950 text-sm font-semibold hover:bg-cyan-400 transition-all">
+                    Resume
+                </a>
                 <a href="https://github.com/kadityas807" target="_blank" rel="noopener noreferrer"
                     class="p-2 text-slate-400 hover:text-white transition-colors hover:scale-110 transform" title="GitHub">
                     <i data-lucide="github" class="w-5 h-5"></i>
@@ -143,7 +162,7 @@
             </div>
 
             <!-- Mobile Menu Button -->
-            <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-300 hover:text-white focus:outline-none">
+            <button id="mobile-menu-btn" type="button" aria-expanded="false" class="md:hidden p-2 text-slate-300 hover:text-white focus:outline-none">
                 <i data-lucide="menu"></i>
             </button>
         </div>
@@ -163,6 +182,8 @@
                 class="block w-full text-left py-3 px-4 text-base font-medium border-l-2 border-transparent text-slate-300 hover:bg-slate-800/30">Projects</a>
             <a href="#contact"
                 class="block w-full text-left py-3 px-4 text-base font-medium border-l-2 border-transparent text-slate-300 hover:bg-slate-800/30">Contact</a>
+            <a href="assets/Aditya-Pratap-Singh-Resume.pdf" download
+                class="block w-full text-left py-3 px-4 text-base font-medium border-l-2 border-transparent text-slate-300 hover:bg-slate-800/30">Resume</a>
         </div>
     </nav>
 
@@ -172,42 +193,9 @@
 
         <!-- 3D ANIMATION LAYER (Background) -->
         <div class="absolute inset-0 pointer-events-none z-0 hidden md:block">
-
-            <!-- LEFT SECTION ANIMATIONS (Code & Syntax) -->
-            <!-- Floating Brackets -->
-            <div class="code-float text-4xl text-cyan-500 font-bold left-[5%] top-[20%] animate-float-1">{ }</div>
-            <div class="code-float text-3xl text-blue-500 font-bold left-[12%] bottom-[25%] animate-float-2">&lt;/&gt;
-            </div>
-
-            <!-- Floating Python/Func Snippets -->
-            <div class="code-float text-sm text-slate-500 left-[8%] top-[40%] animate-float-3">def init():</div>
-            <div class="code-float text-xs text-slate-600 left-[3%] bottom-[40%] animate-float-1">return True</div>
-
-
-            <!-- RIGHT SECTION ANIMATIONS (3D Objects & Data) -->
-            <!-- 3D Rotating Cube -->
-            <div class="absolute right-[8%] top-[15%] animate-float-1">
-                <div class="cube-wrapper">
-                    <div class="cube">
-                        <div class="cube-face">AI</div>
-                        <div class="cube-face">ML</div>
-                        <div class="cube-face">DATA</div>
-                        <div class="cube-face">CODE</div>
-                        <div class="cube-face">PY</div>
-                        <div class="cube-face">JS</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Binary Stream -->
-            <div class="binary-container absolute right-[5%] bottom-[20%] animate-pulse-slow">
-                10110
-                01001
-                11010
-            </div>
-
-            <!-- Floating Math Symbol -->
-            <div class="code-float text-3xl text-purple-500 font-bold right-[15%] bottom-[30%] animate-float-2">Σ</div>
+            <div class="absolute top-12 left-10 w-60 h-60 rounded-full bg-cyan-500/12 blur-3xl"></div>
+            <div class="absolute bottom-10 right-10 w-72 h-72 rounded-full bg-blue-500/12 blur-3xl"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(56,189,248,0.12),transparent_30%),radial-gradient(circle_at_bottom_right,_rgba(59,130,246,0.08),transparent_35%)]"></div>
         </div>
 
 
@@ -243,18 +231,21 @@
 
                 <div class="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">
                     <a href="#contact"
-                        class="group relative px-6 py-3 bg-cyan-500 overflow-hidden rounded-lg transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(6,182,212,0.3)] flex items-center gap-2 text-slate-900 font-bold">
-                        <div
-                            class="absolute inset-0 w-full h-full bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-500">
-                        </div>
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-cyan-500 text-slate-950 font-semibold transition-all hover:scale-[1.02] shadow-[0_20px_50px_rgba(6,182,212,0.18)]">
                         <i data-lucide="mail" class="w-4 h-4"></i>
                         Contact Me
                     </a>
 
                     <a href="#projects"
-                        class="px-6 py-3 bg-slate-800/50 hover:bg-slate-700/50 text-white font-medium rounded-lg border border-slate-700 transition-all hover:scale-105 active:scale-95 flex items-center gap-2 backdrop-blur-sm">
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-slate-800/80 text-white border border-slate-700 hover:bg-slate-700/80 transition-all">
                         View Projects
-                        <i data-lucide="chevron-down" class="w-4 h-4 animate-bounce"></i>
+                        <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                    </a>
+
+                    <a href="assets/Aditya-Pratap-Singh-Resume.pdf" download
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-slate-900 text-white border border-slate-700 hover:border-cyan-500/50 hover:bg-slate-800/80 transition-all">
+                        <i data-lucide="download" class="w-4 h-4"></i>
+                        Download Resume
                     </a>
                 </div>
 
@@ -400,16 +391,16 @@
                 </div>
                 <!-- Stat Card -->
                 <div class="border border-slate-800 bg-slate-900/50 p-6 rounded-2xl text-center group hover:-translate-y-2 transition-transform duration-300">
-                    <div class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-2">100%</div>
-                    <div class="text-slate-400 text-sm">Problem-Solving</div>
+                    <div class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-2">250+</div>
+                    <div class="text-slate-400 text-sm">Hours of Practice</div>
                 </div>
                 <!-- Stat Card -->
                 <div class="border border-slate-800 bg-slate-900/50 p-6 rounded-2xl text-center group hover:-translate-y-2 transition-transform duration-300">
-                    <div class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-2">4+</div>
-                    <div class="text-slate-400 text-sm">Tech Stacks</div>
+                    <div class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-2">3+</div>
+                    <div class="text-slate-400 text-sm">Tech Domains</div>
                 </div>
                 <!-- GitHub Card -->
-                <a href="https://github.com/kadityas807" target="_blank" rel="noopener noreferrer" class="border border-slate-800 bg-slate-900/50 p-4 rounded-2xl text-center group hover:-translate-y-2 hover:border-cyan-500/50 transition-all duration-300 flex flex-col items-center justify-center">
+                <a href="https://github.com/kadityas807" target="_blank" rel="noopener noreferrer" class="border border-slate-800 bg-slate-900/50 p-6 rounded-2xl text-center group hover:-translate-y-2 hover:border-cyan-500/50 transition-all duration-300 flex flex-col items-center justify-center">
                     <i data-lucide="github" class="w-8 h-8 text-cyan-400 mb-2 group-hover:scale-110 transition-transform"></i>
                     <div class="text-slate-300 text-sm font-medium">View GitHub</div>
                 </a>
@@ -615,41 +606,33 @@
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8 perspective-1000">
+            <div class="grid md:grid-cols-3 gap-8">
 
                 <!-- Project 1: Wanderlust (FEATURED) -->
-                <div class="js-tilt-card h-full perspective-1000">
+                <div class="js-tilt-card h-full perspective-1000 reveal reveal-delay-1">
                     <div
-                        class="js-tilt-inner relative h-full bg-slate-900/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-cyan-500/50 transition-colors shadow-2xl group preserve-3d transition-transform duration-100 ease-out transform-gpu">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-xl translate-z-0">
-                        </div>
-
-                        <div class="relative z-10 translate-z-8">
-                            <a href="#" target="_blank"
-                                class="absolute top-0 right-0 p-0 opacity-0 group-hover:opacity-100 transition-all duration-300 hover:text-cyan-400">
-                                <i data-lucide="external-link" class="w-5 h-5"></i>
-                            </a>
+                        class="js-tilt-inner relative h-full bg-slate-900/85 backdrop-blur-sm rounded-3xl p-6 border border-slate-700 hover:border-cyan-500/50 transition-colors shadow-2xl group preserve-3d transition-transform duration-150 ease-out transform-gpu">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-3xl"></div>
+                        <div class="relative z-10">
                             <div class="flex items-center gap-3 mb-4">
                                 <div
-                                    class="p-3 rounded-lg bg-cyan-500/10 text-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
+                                    class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
                                     <i data-lucide="compass" class="w-6 h-6"></i>
-                                </div>                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Wanderlust
-                                    <span class="text-xs ml-1 px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">Featured</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Wanderlust
+                                    <span class="text-xs ml-2 px-2 py-1 rounded-full bg-cyan-500/20 text-cyan-200 border border-cyan-500/30">Featured</span>
                                 </h3>
                             </div>
 
                             <p class="text-slate-400 mb-4 leading-relaxed text-sm">
-                                An Airbnb-inspired full stack travel & accommodation booking platform. Users can list, discover, and book properties with a seamless end-to-end experience — from browsing to secure checkout.
+                                An Airbnb-inspired travel booking platform built with modern server-side architecture, secure user authentication, and mobile-first UI.
                             </p>
 
-                            <!-- Key Features -->
                             <ul class="text-slate-500 text-xs mb-5 space-y-1">
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> JWT-based user authentication & session management</li>
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Full CRUD for property listings with image uploads (Cloudinary)</li>
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Booking system with date validation & conflict checks</li>
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> RESTful API built with Express & MongoDB (Mongoose)</li>
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Responsive UI with EJS templating & MVC architecture</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> JWT authentication & role-based access</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Property listing CRUD with image uploads</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Booking calendar with date validation</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Express API with MongoDB data modeling</li>
                             </ul>
 
                             <div class="flex flex-wrap gap-2 mb-5">
@@ -657,46 +640,38 @@
                                 <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">Express.js</span>
                                 <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">Node.js</span>
                                 <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">EJS</span>
-                                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">Cloudinary</span>
-                                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">JWT</span>
                             </div>
 
-                            <div class="flex gap-3">
+                            <div class="flex flex-wrap gap-3">
                                 <a href="https://github.com/kadityas807" target="_blank" rel="noopener noreferrer"
-                                    class="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 border border-slate-600 hover:border-cyan-500/50 hover:text-cyan-300 transition-all">
-                                    <i data-lucide="github" class="w-3.5 h-3.5"></i> GitHub
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                    class="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 hover:bg-cyan-500/20 transition-all">
-                                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Live Demo
+                                    class="flex items-center gap-2 text-xs px-3 py-2 rounded-full bg-slate-800 text-slate-300 border border-slate-600 hover:border-cyan-500/50 hover:text-cyan-300 transition-all">
+                                    <i data-lucide="github" class="w-4 h-4"></i> View Code
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Portfolio Website -->
-                <div class="js-tilt-card h-full perspective-1000">
+                <!-- Project 2: Developer Portfolio -->
+                <div class="js-tilt-card h-full perspective-1000 reveal reveal-delay-2">
                     <div
-                        class="js-tilt-inner relative h-full bg-slate-900/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-cyan-500/50 transition-colors shadow-2xl group preserve-3d transition-transform duration-100 ease-out transform-gpu">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-xl translate-z-0">
-                        </div>
-                        <div class="relative z-10 translate-z-8">
+                        class="js-tilt-inner relative h-full bg-slate-900/85 backdrop-blur-sm rounded-3xl p-6 border border-slate-700 hover:border-cyan-500/50 transition-colors shadow-2xl group preserve-3d transition-transform duration-150 ease-out transform-gpu">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-3xl"></div>
+                        <div class="relative z-10">
                             <div class="flex items-center gap-3 mb-4">
                                 <div
-                                    class="p-3 rounded-lg bg-cyan-500/10 text-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
+                                    class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
                                     <i data-lucide="user" class="w-6 h-6"></i>
                                 </div>
                                 <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Developer Portfolio</h3>
                             </div>
                             <p class="text-slate-400 mb-4 leading-relaxed text-sm">
-                                This very portfolio — a fully custom-built, dark-themed developer portfolio with 3D animations, tilt effects, and scroll-reveal features. No frameworks, zero templates.
+                                A polished personal portfolio built with Tailwind CSS, vanilla JavaScript, and responsive design patterns for internship-ready presentation.
                             </p>
                             <ul class="text-slate-500 text-xs mb-5 space-y-1">
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Custom 3D intro loader & CSS animations</li>
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Mouse-tracking parallax & tilt card effects</li>
-                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Fully responsive with mobile navigation</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Smooth scroll and mobile-friendly navigation</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Reusable section cards and clean typography</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> SEO-focused metadata and performance improvements</li>
                             </ul>
                             <div class="flex flex-wrap gap-2 mb-5">
                                 <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">HTML5</span>
@@ -704,16 +679,52 @@
                                 <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">JavaScript</span>
                                 <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">Tailwind CSS</span>
                             </div>
-                            <div class="flex gap-3">
+                            <div class="flex flex-wrap gap-3">
                                 <a href="https://github.com/kadityas807" target="_blank" rel="noopener noreferrer"
-                                    class="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 border border-slate-600 hover:border-cyan-500/50 hover:text-cyan-300 transition-all">
-                                    <i data-lucide="github" class="w-3.5 h-3.5"></i> GitHub
+                                    class="flex items-center gap-2 text-xs px-3 py-2 rounded-full bg-slate-800 text-slate-300 border border-slate-600 hover:border-cyan-500/50 hover:text-cyan-300 transition-all">
+                                    <i data-lucide="github" class="w-4 h-4"></i> View Code
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Project 3: StudyBuddy Planner -->
+                <div class="js-tilt-card h-full perspective-1000 reveal reveal-delay-3">
+                    <div
+                        class="js-tilt-inner relative h-full bg-slate-900/85 backdrop-blur-sm rounded-3xl p-6 border border-slate-700 hover:border-cyan-500/50 transition-colors shadow-2xl group preserve-3d transition-transform duration-150 ease-out transform-gpu">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-3xl"></div>
+                        <div class="relative z-10">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div
+                                    class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
+                                    <i data-lucide="layout" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">StudyBuddy Planner</h3>
+                            </div>
+                            <p class="text-slate-400 mb-4 leading-relaxed text-sm">
+                                A beginner-friendly study planner that helps learners organize goals, schedule tasks, and track progress with a clean, responsive interface.
+                            </p>
+                            <ul class="text-slate-500 text-xs mb-5 space-y-1">
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Task management and progress tracking</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Responsive design with mobile-first layout</li>
+                                <li class="flex items-center gap-1.5"><span class="text-cyan-500">▸</span> Secure data structure planning and usability focus</li>
+                            </ul>
+                            <div class="flex flex-wrap gap-2 mb-5">
+                                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">HTML5</span>
+                                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">CSS3</span>
+                                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">JavaScript</span>
+                                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-800 text-cyan-200 border border-slate-600">LocalStorage</span>
+                            </div>
+                            <div class="flex flex-wrap gap-3">
+                                <a href="https://github.com/kadityas807" target="_blank" rel="noopener noreferrer"
+                                    class="flex items-center gap-2 text-xs px-3 py-2 rounded-full bg-slate-800 text-slate-300 border border-slate-600 hover:border-cyan-500/50 hover:text-cyan-300 transition-all">
+                                    <i data-lucide="github" class="w-4 h-4"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -734,7 +745,7 @@
                         <span
                             class="absolute -left-[39px] w-5 h-5 rounded-full border-4 border-slate-900 bg-cyan-500 group-hover:scale-125 transition-transform"></span>
                         <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">B.Tech — Computer Science &amp; Engineering (AI &amp; ML)</h3>
-                        <p class="text-cyan-400 mb-2">Invertis University, Bareilly</p>
+                        <p class="text-cyan-400 mb-2">Lovely Professional University (LPU)</p>
                         <p class="text-sm text-slate-500 mb-2">2023 – 2027 (Expected)</p>
                         <p class="text-slate-400">
                             Specializing in Artificial Intelligence &amp; Machine Learning. Coursework includes Data Structures, DBMS, OS, Computer Networks, and Web Technologies. Actively building full-stack projects beyond the curriculum.
@@ -834,6 +845,12 @@
                     class="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl border border-slate-700 transition-all flex items-center gap-3 shadow-lg hover:shadow-cyan-500/20 hover:border-cyan-500/50 hover:-translate-y-1">
                     <i data-lucide="github" class="w-5 h-5"></i>
                     <span>GitHub</span>
+                </a>
+
+                <a href="assets/Aditya-Pratap-Singh-Resume.pdf" download
+                    class="px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-slate-950 rounded-xl border border-transparent transition-all flex items-center gap-3 shadow-lg shadow-cyan-500/20 hover:-translate-y-1">
+                    <i data-lucide="download" class="w-5 h-5"></i>
+                    <span>Download Resume</span>
                 </a>
             </div>
 
