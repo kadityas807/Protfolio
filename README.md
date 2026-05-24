@@ -1,5 +1,5 @@
 # 🚀 Personal Portfolio Website
-https://kadityas807.github.io/Portfolio/
+https://protfolio-nu-green.vercel.app/
 
 A polished developer portfolio for Aditya Pratap Singh, designed for internship and freelance presentation. The site uses modern dark theming, responsive layout, and professional content that showcases beginner-friendly projects and technical skills.
 
